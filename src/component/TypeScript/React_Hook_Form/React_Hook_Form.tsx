@@ -17,7 +17,7 @@ const React_Hook_Form = () => {
 
     return (
         <div>
-            <h1>Contact Form</h1>
+            <h1 style={{fontSize:"50px",fontWeight:"bold"}}> React Hook Form Contact Form</h1>
             <form onSubmit={handleSubmit(onSubmit)}>
                 <div>
                     <label htmlFor="name">Name</label>
@@ -50,6 +50,7 @@ const React_Hook_Form = () => {
                     Submit
                 </button>
             </form>
+            <h1 style={{fontSize:"30px",fontWeight:"bold"}}> React Hook Form Contact Form end</h1>
         </div>
     );
 };
