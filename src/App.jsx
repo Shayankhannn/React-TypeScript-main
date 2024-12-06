@@ -38,6 +38,7 @@ import MyProvider from './component/TypeScript/UseContext_typescript/MyContext';
 import Counter from './component/TypeScript/UseContext_typescript/Counter';
 import Reducer_counter from './component/TypeScript/Reducer_Typescript/Reducer_counter';
 import UseEffect_TypeScript from './component/TypeScript/UseEffect_TypeScript';
+import React_Hook_Form from './component/TypeScript/React_Hook_Form/React_Hook_Form';
 
 const App = () => {
   return (
@@ -90,6 +91,7 @@ const App = () => {
 </MyProvider>
 <Reducer_counter/>
 <UseEffect_TypeScript/>
+<React_Hook_Form/>
 
 <div className="AccordianData">
 {accordionData.map(({title,content})=>(
